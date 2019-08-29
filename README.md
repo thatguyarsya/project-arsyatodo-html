@@ -1,3 +1,3 @@
 # A TO-DO TOOL PROJECT
 ## background art by tkmiz
-netlify link: theprogressbar.netlify.com
+netlify link: [theprogressbar.netlify.com](theprogressbar.netlify.com)
