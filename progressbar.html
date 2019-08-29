@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Progress Bar</title>
-</head>
-<h2>
-<H1>THE PROGRESS BAR</H1>
-<H2>A tool used to track tasks.</H2>
-<H2>Quantify all your tasks into completion</H2>
-&nbsp;
-<br>
-<table>
-    <tr>
-    <th>Task</th>
-    <th>Progress</th>    
-    </tr>
-    <tr>
-    <td>Eat food</td>
-    <td>2/3</td>
-    </tr>
-</table>
-<br>
-<br>
-<br>
+    <link rel="stylesheet" href="progressbar.css" />
+  </head>
+  <body>
+        <div id="button">
+                <a href="https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2019/08/garfield-and-friends.jpg?itok=NGvVnLsF">COLOURS</a>
+                <a href="https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2019/08/garfield-and-friends.jpg?itok=NGvVnLsF">CONTACT</a>
+                </div>
+    <div>
+      <H1 id="logo">THE PROGRESS BAR</H1>
+    </div>
+    <section>
+      <H2>A tool used to track tasks.</H2>
+      <br />
+      <H2>Quantify all your tasks into completion</H2>
+    </section>
+    &nbsp;
+    <br />
+    <div id="task">
+    <table style="border-spacing: 50px 0;">
+      <tr>
+        <th>Tasks</th>
+      </tr>
+      
+    </table>
+    <textarea placeholder="insert tasks here." name="TASKS" id="#" cols="25" rows="10"></textarea>
+    <table style="border-spacing: 50px 0;">
+            <tr>
+              <th>Progress</th>
+            </tr>
+            
+          </table>
+          <textarea style="resize: none" placeholder="0." name="NUMBER" id="#" cols="5" rows="1"></textarea>
+          <textarea style="resize: none" placeholder="of" name="NUMBER" id="#" cols="2" rows="1"></textarea>
+          <textarea style="resize: none" placeholder="0." name="NUMBER" id="#" cols="5" rows="1"></textarea>
+</div>
+    <br />
+    <br />
+    <br />
 
-<h2>Task Description</h2>
-<p>
-    eat, don't die
-</p>
-</body>
+    <h3>Task Description</h3>
+    <textarea name="taskdesc" id="#" placeholder="what must be done." cols="30" rows="1"></textarea>
+  </body>
 </html>
