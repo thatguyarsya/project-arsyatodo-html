@@ -1,5 +1,5 @@
 body {font-family: 'Courier New', Courier, monospace}
-#button {float: right; background-color: rgb(119, 117, 117), 101);}
+#button {float: right; background-color: rgb(119, 117, 117);}
 #task {height:240px;width:240px;border:1px solid rgb(179, 179, 179);overflow:auto; background-color: rgb(15, 15, 15)}
 table {background-color: rgb(255, 255, 255)}
 body{background-image: url(./tempbg.gif); background-size: cover;}
@@ -12,5 +12,3 @@ a{
     border-color: black;
     padding: px;
 }
-
-@media screen and (max-width: 300px) {}
