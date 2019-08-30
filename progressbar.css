@@ -3,3 +3,14 @@ body {font-family: 'Courier New', Courier, monospace}
 #task {height:240px;width:240px;border:1px solid rgb(179, 179, 179);overflow:auto; background-color: rgb(15, 15, 15)}
 table {background-color: rgb(255, 255, 255)}
 body{background-image: url(./tempbg.gif); background-size: cover;}
+
+a{
+    position: relative;
+    border: solid;
+    border-width: 2px;
+    background-color: rgb(212, 212, 212);
+    border-color: black;
+    padding: px;
+}
+
+@media screen and (max-width: 300px) {}
